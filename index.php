@@ -34,7 +34,7 @@
         <!-- CSS Global Icons -->
         <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/vendor/icon-line/css/simple-line-icons.css">
-        <link rel="stylesheet" href="assetse/vendor/icon-etlinefont/style.css">
+        <link rel="stylesheet" href="assets/vendor/icon-etlinefont/style.css">
         <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
         <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
         <link rel="stylesheet" href="https://assets.wesales.online/vendor/dzsparallaxer/dzsparallaxer.css">
@@ -51,7 +51,8 @@
         <link rel="stylesheet" href="https://assets.wesales.online/css/unify-globals.css">
 
         <!-- CSS Customization -->
-        <link rel="stylesheet" href="css/font-kanit.css">
+        <link rel="stylesheet" href="https://assets.wesales.online/css/font-kanit.css">
+        <link rel="stylesheet" href="https://assets.wesales.online/css/page-load.css">
 
         <!-- Facebook Pixel Code -->
         <script>
@@ -86,7 +87,9 @@
 </head>
 
 <body>
+    <div id="cover-spin"></div>
     <main>
+
 
 
 
@@ -97,7 +100,7 @@
         <!-- End Header -->
 
         <!-- Promo Block -->
-        <section class="g-flex-centered g-bg-pos-center g-bg-img-hero g-pos-rel g-z-index-1 g-overflow-hidden" style="background-image: url(https://assets.wesales.online/assets/img-temp/1920x1080/img14.jpg);" data-calc-target="#js-header">
+        <section class="g-flex-centered g-bg-pos-center g-bg-img-hero g-pos-rel g-z-index-1 g-overflow-hidden" style="background-image: url(https://assets.wesales.online/img-temp/1920x1080/img14.jpg);" data-calc-target="#js-header">
             <div class="g-pos-abs g-top-0 g-left-0" data-animation="fadeInDown" data-animation-delay="100" data-animation-duration="1500">
                 <img class="img-fluid" src="https://assets.wesales.online/img-temp/1920x1080/img15.png" alt="Image Description">
             </div>
@@ -107,7 +110,7 @@
 
             <div class="container text-center g-z-index-1">
                 <div class="row">
-                    <div class="col-md-6 offset-md-3">
+                    <div class="col-md-4 offset-md-4">
                         <image src="img/dicut-cpad-02.png" class="img-fluid" data-animation="fadeInDown" data-animation-delay="1000" data-animation-duration="1500"/>
                     </div>
                 </div>
@@ -176,12 +179,12 @@
                 <article class="row">
 
                     <!-- Article Image -->
-                    <div class="col-lg-6 align-self-center order-last">
+                    <div class="col-lg-6 align-self-center order-md-1 order-2">
                         <image src="img/che-pose-03.jpg" class="mg-fluid w-100 u-shadow-v21 rounded"/>
 
                     </div>
                     <!-- End Article Image -->
-                    <div class="col-lg-6 g-mb-10 align-self-center order-first">
+                    <div class="col-lg-6 g-mb-10 align-self-center order-md-2 order-1">
                         <header class="u-heading-v6-2 g-mb-20">
                             <h3 class="u-heading-v6__title g-color-gray-dark-v2 g-brd-primary  g-font-weight-600 g-mb-15">รากต้นแองเจลิกา</h3>
                         </header>
@@ -286,13 +289,13 @@
                     <div class="col-md-6 col-12">
                         <image src="img/reviews/che-pose-review-01.jpg" class="mg-fluid w-100 u-shadow-v21 rounded"/>
                     </div>
-                    <div class="ccol-md-6 col-12">
+                    <div class="col-md-6 col-12">
                         <image src="img/reviews/che-pose-review-02.jpg" class="mg-fluid w-100 u-shadow-v21 rounded"/>
                     </div>
-                    <div class="col-md-6 col-6">
+                    <div class="col-md-6 col-12">
                         <image src="img/reviews/che-pose-review-03.jpg" class="mg-fluid w-100 u-shadow-v21 rounded"/>
                     </div>
-                    <div class="col-md-6 col-6">
+                    <div class="col-md-6 col-12">
                         <image src="img/reviews/che-pose-review-04.jpg" class="mg-fluid w-100 u-shadow-v21 rounded"/>
                     </div>
                 </div>
@@ -343,6 +346,9 @@
                                 <textarea class="form-control g-color-gray-dark-v5 g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--focus g-resize-none rounded-3 g-py-13 g-px-15" rows="5" name="description" id="description"></textarea>
                             </div>
                         </div>
+                        <input type="hidden" name="redirect" id="redirect" value="https://chepose.wesales.online/thankyou.php"/>
+                        <input type="hidden" name="lineid" id="lineid" value="3Lu2JWz2vrA8VcT5RcDWKhGOCHK38FAv8Jooc6SvPAf"/>
+                        <input type="hidden" name="sms" id="sms" value="1"/>
 
                         <button class="btn u-btn-primary btn-lg rounded-3 g-py-12 g-px-20" type="submit" role="button" disabled="" id="bt-purchase-form-submit">ส่งข้อมูลการสั่งซื้อ</button>
                     </form>
@@ -353,15 +359,11 @@
                     <h1 class="g-font-weight-300 mb-5"><i><a href="tel:+66825878661">โทร 082 587 8661</a></i></h1>
 
                     <div class="mb-4">
-                        <h2 class="h5 g-color-gray-dark-v2 g-font-weight-600">Email us:</h2>
-                        <p class="g-color-gray-dark-v4">Email: <a class="g-color-gray-dark-v2" href="#">htmlstream@support.com</a>
-                        </p>
+                        <a href="https://lin.ee/zOkmKGn" target="_blank"><img src="img/line-bt.png" class="w-100"/></a>
                     </div>
 
                     <div class="mb-3">
-                        <h2 class="h5 g-color-gray-dark-v2 g-font-weight-600">Call us:</h2>
-                        <p class="g-color-gray-dark-v4">Call: <span class="g-color-gray-dark-v2">+32 333 444 555</span>
-                        </p>
+                        <a href="https://www.facebook.com/ChePoseThai/" target="_blank"><img src="img/fb-bt.png" class="w-100"/></a>
                     </div>
 
 
@@ -409,6 +411,7 @@
 
     <script src="https://assets.wesales.online/js/footer-v1.js"></script>
     <script src="https://assets.wesales.online/js/purchase-form-validation.js"></script>
+    <script src="https://assets.wesales.online/js/purchase-process.js"></script>
 
     <!-- JS Plugins Init. -->
     <script>
