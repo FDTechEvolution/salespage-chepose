@@ -38,11 +38,35 @@
         <link rel="stylesheet" href="https://assets.wesales.online/css/unify-components.css">
         <link rel="stylesheet" href="https://assets.wesales.online/css/unify-globals.css">
         <link rel="stylesheet" href="https://assets.wesales.online/css/font-kanit.css">
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '765688550620935');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=765688550620935&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
 
   
     </head>
 
     <body>
+<script>
+  fbq('track', 'Purchase', {
+    value: 0,
+    currency: 'THB',
+  });
+</script>
         <main>
             <!-- Signup -->
             <section class="g-min-height-100vh g-flex-centered g-bg-lightblue-radialgradient-circle">
@@ -52,8 +76,9 @@
                             <div class="u-shadow-v24 g-bg-white rounded g-py-10 g-px-30">
                                 <header class="text-center mb-4">
                                     <h2 class="h2 g-color-green g-font-weight-600">ขอบคุณสำหรับการสั่งซื้อ</h2>
+                                    <h3 class="h3 g-color-green">รอรับสินค้า 1-2 วัน ไม่รวมวันอาทิตย์</h3>
                                 </header>
-                                <image src="img/dicut-cpad-02.png" class="img-fluid" />
+                                <image src="img/chepose-howto.jpg" class="img-fluid" />
                                 
 
                                

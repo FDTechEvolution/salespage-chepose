@@ -54,36 +54,23 @@
         <link rel="stylesheet" href="https://assets.wesales.online/css/font-kanit.css">
         <link rel="stylesheet" href="https://assets.wesales.online/css/page-load.css">
 
-        <!-- Facebook Pixel Code -->
-        <script>
-            !function (f, b, e, v, n, t, s)
-            {
-                if (f.fbq)
-                    return;
-                n = f.fbq = function () {
-                    n.callMethod ?
-                            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-                };
-                if (!f._fbq)
-                    f._fbq = n;
-                n.push = n;
-                n.loaded = !0;
-                n.version = '2.0';
-                n.queue = [];
-                t = b.createElement(e);
-                t.async = !0;
-                t.src = v;
-                s = b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t, s)
-            }(window, document, 'script',
-                    'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '1064927400515564');
-            fbq('track', 'PageView');
-        </script>
-        <noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1064927400515564&ev=PageView&noscript=1" />
-    </noscript>
-    <!-- End Facebook Pixel Code -->
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '765688550620935');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=765688550620935&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -228,7 +215,7 @@
         </section>
 
         <section class="g-bg-secondary">
-            <div class="container g-pt-50 g-pb-70">
+            <div class="container g-pt-50 g-pb-20">
                 <div class="row">
                     <div class="col-lg-5 g-mb-30">
 
@@ -242,6 +229,45 @@
 
                     <div class="col-lg-7 g-mb-30">
                         <img class="img-fluid w-100 mb-4" src="img/che-pose-fda.jpg" alt="Image Description">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="g-bg-secondary">
+            <div class="container g-pt-20 g-pb-80">
+                <div class="row">
+                    <div class="col-12">
+                        <header class="text-center g-width-80x--md mx-auto g-mb-50">
+                            <div class="u-heading-v6-2 text-center text-uppercase g-mb-20">
+                                <h2 class="h3 u-heading-v6__title g-brd-primary g-color-gray-dark-v2 g-font-weight-600">โปรโมชั่น</h2>
+                            </div>
+                        </header>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img class="img-fluid" src="img/chepose_product-01.png">
+                        <p class="text-left g-font-size-12">1 กระปุก บรรจุ 65 แผ่น</p>
+                    </div>
+                    <div class="col-lg-6 g-mb-10 align-self-center">
+                        <header class="u-heading-v6-2 g-mb-40">
+                            <h5 class="u-heading-v1__title g-color-gray-dark-v2 g-brd-primary  g-font-weight-600">Chepose 1 กระปุก : 890.-</h5>
+                            <p class="g-font-size-14 g-pl-30 g-mb-10">Chepose 1 กระปุก บรรจุ 65 แผ่น</p>
+                        </header>
+                        <header class="u-heading-v6-2 g-mb-40">
+                            <h5 class="u-heading-v1__title g-color-gray-dark-v2 g-brd-primary  g-font-weight-600">คู่หูหน้าใส : 1,290.-</h5>
+                            <p class="g-font-size-14 g-pl-30 g-mb-10">Chepose 1 กระปุก + Moise Gel ฉ่ำน้ำ 1 หลอด</p>
+                        </header>
+                        <header class="u-heading-v6-2 g-mb-40">
+                            <h5 class="u-heading-v1__title g-color-gray-dark-v2 g-brd-primary  g-font-weight-600">หน้าใสเด้ง x3 : 1,750.-</h5>
+                            <p class="g-font-size-14 g-pl-30 g-mb-10">Chepose 2 กระปุก (แถมฟรี Moise Gel ฉ่ำน้ำ 1 หลอด) </p>
+                        </header>
+                        <header class="u-heading-v6-2 g-mb-40">
+                            <h5 class="u-heading-v1__title g-color-gray-dark-v2 g-brd-primary  g-font-weight-600">หน้าใสสุดคุ้ม : 2,490.-</h5>
+                            <p class="g-font-size-14 g-pl-30 g-mb-10">Chepose 3 กระปุก (แถมฟรี Moise Gel ฉ่ำน้ำ 1 หลอด)</p>
+                        </header>
+                    </div>
+                    <div class="col-md-12 text-center g-mt-30">
+                        <a class="btn u-btn-primary g-font-size-14 g-font-weight-600 g-py-12 g-px-30" href="#sec-purchase-form">สั่งซื้อสินค้า</a>
                     </div>
                 </div>
             </div>
@@ -261,12 +287,16 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-12 offset-md-2 g-py-15">
+                    <div class="col-md-7 col-12 g-py-15">
+                        <header class="u-heading-v6-2 g-mt-20">
+                            <h3 class="u-heading-v6__title g-color-gray-dark-v2 g-brd-primary  g-font-weight-600 g-mb-15">เพื่อผิวใส สุขภาพดี</h3>
+                        </header>
                         <div class="embed-responsive embed-responsive-16by9 g-mb-30">
                             <iframe width="100%" src="//www.youtube.com/embed/-5r6sCnzuE0" frameborder="0" allowfullscreen=""></iframe>
-
-
                         </div>
+                    </div>
+                    <div class="col-md-5 col-12 g-py-15">
+                        <img class="img-fluid" src="img/S__11747345.jpg">
                     </div>
                 </div>
             </div>
@@ -323,8 +353,10 @@
                             <div class="col-md-12 form-group g-mb-20">
                                 <label class="g-color-gray-dark-v2 ">สินค้า:</label>
                                 <select name="product" id="product" class="form-control g-brd-gray-light-v4 g-brd-primary--focus rounded-3 g-py-13 g-px-15">
-                                    <option value="Che POSE 1 กระปุก 890฿">Che POSE 1 กระปุก 890฿</option>
-                                    <option value="Che POSE 2 กระปุก 1750฿">Che POSE 2 กระปุก 1750฿</option>
+                                    <option value="Che POSE 1 กระปุก 890฿">Che POSE 1 กระปุก : 890฿</option>
+                                    <option value="Che POSE 1 กระปุก + Moise Gel ฉ่ำน้ำ 1290฿">Che POSE 1 กระปุก + Moise Gel ฉ่ำน้ำ : 1,290฿</option>
+                                    <option value="Che POSE 2 กระปุก (แถม Moise Gel ฉ่ำน้ำ) 1750฿">Che POSE 2 กระปุก (แถมฟรี! Moise Gel ฉ่ำน้ำ) : 1,750฿</option>
+                                    <option value="Che POSE 3 กระปุก (แถม Moise Gel ฉ่ำน้ำ) 2490฿">Che POSE 3 กระปุก (แถมฟรี! Moise Gel ฉ่ำน้ำ) : 2,490฿</option>
                                 </select>
                             </div>
                             <div class="col-md-6 form-group g-mb-20">
@@ -356,7 +388,9 @@
                 </div>
 
                 <div class="col-md-4">
-                    <h1 class="g-font-weight-300 mb-5"><i><a href="tel:+66825878661">โทร 082 587 8661</a></i></h1>
+                    <div class="mb-4">
+                        <a href="tel:+66825878661"><img src="img/tel-bt.png" class="w-100"></a>
+                    </div>
 
                     <div class="mb-4">
                         <a href="https://lin.ee/zOkmKGn" target="_blank"><img src="img/line-bt.png" class="w-100"/></a>
@@ -366,6 +400,9 @@
                         <a href="https://www.facebook.com/ChePoseThai/" target="_blank"><img src="img/fb-bt.png" class="w-100"/></a>
                     </div>
 
+                    <div class="mb-4 text-center g-pt-40">
+                        <img class="img-fluid" src="img/chepose_product-01.png">
+                    </div>
 
                 </div>
             </div>
